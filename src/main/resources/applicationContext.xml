@@ -10,8 +10,6 @@
     
     <import resource="classpath:hibernate.xml"/>
 
-    <bean id="helloResource" class="com.drngsl.srh.api.resources.HelloResource"
-        scope="prototype" />
     <bean id="usersResource" class="com.drngsl.srh.api.resources.UsersResource"
         scope="prototype" />
 </beans>

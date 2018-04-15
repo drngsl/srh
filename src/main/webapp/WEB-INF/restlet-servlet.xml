@@ -15,11 +15,6 @@
                         <lookup-method name="create" bean="usersResource" />
                     </bean>
                 </entry>
-                <entry key="/hello">
-                    <bean class="org.restlet.ext.spring.SpringFinder">
-                        <lookup-method name="create" bean="helloResource" />
-                    </bean>
-                </entry>
             </map>
         </property>
     </bean>
