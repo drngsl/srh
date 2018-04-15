@@ -10,7 +10,6 @@ import com.drngsl.srh.api.service.UserService;
 import com.drngsl.srh.dao.model.UserModel;
 
 public class UsersResource extends ServerResource {
-
 	@Autowired
 	private UserService userService;
 
@@ -18,6 +17,7 @@ public class UsersResource extends ServerResource {
 	public Representation create() {
 		UserModel user = new UserModel();
 		user.setName("zs");
+		userService.create(user);
 		return new JacksonRepresentation<UserModel>(user);
 	}
 }

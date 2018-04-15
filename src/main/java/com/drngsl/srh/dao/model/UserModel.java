@@ -32,4 +32,9 @@ public class UserModel {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "UserModel [id=" + id + ", name=" + name + "]";
+	}
 }

@@ -1,5 +1,6 @@
 package com.drngsl.srh.dao;
 
+import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
@@ -11,6 +12,9 @@ import com.drngsl.srh.dao.model.UserModel;
 
 @Repository
 public class UserDao {
+	@SuppressWarnings("unused")
+	private Logger logger = Logger.getLogger(UserDao.class);
+
 	@Autowired
 	private SessionFactory sessionFactory;
 
