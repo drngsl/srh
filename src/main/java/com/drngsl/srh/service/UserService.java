@@ -1,4 +1,4 @@
-package com.drngsl.srh.api.service;
+package com.drngsl.srh.service;
 
 import java.util.List;
 

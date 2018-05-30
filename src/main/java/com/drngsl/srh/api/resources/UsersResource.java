@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.drngsl.srh.api.resources.model.request.CreateUserReq;
 import com.drngsl.srh.api.resources.model.response.CreateUserResp;
 import com.drngsl.srh.api.resources.model.response.ListUserResp;
-import com.drngsl.srh.api.service.UserService;
 import com.drngsl.srh.dao.model.UserModel;
+import com.drngsl.srh.service.UserService;
 
 public class UsersResource extends ServerResource {
 	@Autowired
